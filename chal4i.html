@@ -1,0 +1,91 @@
+<style>
+  .shadow {
+    border: none;
+    background-color: rgb(0, 104, 38);
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  .shadow:active {
+    margin-top: 33px;
+    margin-left: 23px;
+    margin-bottom: 27px;
+    box-shadow: none;
+  }
+
+  .stretch {
+    border: none;
+    background-color: rgb(0, 104, 38);
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .stretch:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 5px;
+    margin-bottom: 45px;
+  }
+
+  .row {
+    border: none;
+    background-color: rgb(0, 104, 38);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    transition: padding 0.2s, margin 0.2s;
+  }
+
+  .row:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+</style>
+
+<button class="shadow">Shadow</button>
+<br><button class="stretch">Stretch</button>
+<br><button class="row">One</button>
+<button class="row">Two</button>
+<button class="row">Three</button>
